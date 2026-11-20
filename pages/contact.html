@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addis Coffee Guide</title>
+</head>
+<body>
+    <header>
+    <h1>Contact &amp; Cafe Recommendations</h1>
+    <p>Get in touch with us or suggest your favorite roastery in Addis Ababa.</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">Origins &amp; Guide</a></li>
+        <li><a href="contact.html">Contact &amp; Visit</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h2>Direct Inquiries</h2>
+    <p>Have a question about local coffee tours or roasting workshops? Send us an email directly at <a href="mailto:info@addiscoffeeguide.et">info@addiscoffeeguide.et</a>.</p>
+
+    <h2>Suggest a Local Cafe</h2>
+    <p>Fill out the form below to recommend a coffee house to add to our guide.</p>
+    
+    <form action="#" method="post">
+        <p>
+            <label for="visitor-name">Your Name:</label><br>
+            <input type="text" id="visitor-name" name="visitor_name" required>
+        </p>
+
+        <p>
+            <label for="visitor-email">Your Email:</label><br>
+            <input type="email" id="visitor-email" name="visitor_email" required>
+        </p>
+
+        <p>
+            <label for="cafe-name">Recommended Cafe Name:</label><br>
+            <input type="text" id="cafe-name" name="cafe_name" required>
+        </p>
+
+        <p>
+            <label for="favorite-origin">Favorite Coffee Origin:</label><br>
+            <select id="favorite-origin" name="favorite_origin">
+                <option value="yirgacheffe">Yirgacheffe</option>
+                <option value="sidama">Sidama</option>
+                <option value="harar">Harar</option>
+                <option value="guji">Guji</option>
+                <option value="limu">Limu</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="comments">Why do you recommend this spot?</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+        </p>
+
+        <p>
+            <button type="submit">Submit Recommendation</button>
+        </p>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2026 Addis Coffee Guide. All rights reserved.</p>
+</footer>
+</body>
+</html>
